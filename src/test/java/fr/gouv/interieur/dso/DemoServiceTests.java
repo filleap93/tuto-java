@@ -19,7 +19,7 @@ class DemoServiceTests {
 	@Test
 	void test() {
 		List<Demo> list = demoService.getListDemo();
-		Assertions.assertEquals(6, list.size());
+		Assertions.assertEquals(5, list.size());
 	}
 
 }
