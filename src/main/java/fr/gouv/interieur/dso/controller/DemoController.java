@@ -25,8 +25,8 @@ public class DemoController {
     @GetMapping("/")
     public ResponseDto helloWorld() {
         ResponseDto responseDto = new ResponseDto();
-        responseDto.setMessage("hello world !");
-        responseDto.setStatus("ok");
+        responseDto.setMessage("site is down !");
+        responseDto.setStatus("ko");
         return responseDto;
     }
 
